@@ -10,12 +10,12 @@ relative_permalinks: false
 title:            Searching Termination 
 tagline:          ''
 description:      ''
-url:              www.cse.iitk.ac.in
-baseurl:          /users/ndesh
+url:              ndesh26.github.io
+baseurl:          /blog
 
 author:
   name:           'Nayan Deshmukh'
-  url:            www.cse.iitk.ac.in/users/ndesh
+  url:            ndesh26.github.io
 gems: [jekyll-paginate,jekyll-gist,pygments.rb,redcarpet,kramdown]
 paginate:         5
 
