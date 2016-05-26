@@ -6,4 +6,14 @@ title: About
 <p class="message">
     Hard work beats talent when talent doesn't work hard
 </p>
-I am Nayan, a 2nd year B.Tech Degree student at IIT Kanpur studying Computer Science and Engineering. I am trying to find my purpose in life.
+I am Nayan, a 2nd year B.Tech Degree student at IIT Kanpur studying Computer Science and Engineering. I love coding, swimming, binge-watching tv series and food. I work on open-source projects during my free time. I am big Avatar(not the James Cameroon one) fan.
+
+<h4>Favorites:</h4>
+<ul style="list-style-type:disc">
+  <li>OS - Fedora</li>
+  <li>TV Series - ATLA and LOK</li>
+  <li>Movie - The Dark Night</li>
+  <li>DE - GNOME</li>
+  <li>Anime - Erased</li>
+</ul>
+
