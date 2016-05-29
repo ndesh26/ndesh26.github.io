@@ -8,8 +8,8 @@ title: Projects
 <li>Used Radxa Rock as the main development board along with Arduino Mega for controlling servos and Python as the primary language</li>
 <li>Implemented Speech to text using Google’s speech API, Artificial Intelligence through Pandorabots API, text to audio using eSpeak and connected to Twitter using TweetPony API</li> 
 </ul>
-![Social Robot]({{ site.baseurl }}/assets/images/400.jpg)
-![Social Robot]({{ site.baseurl }}/assets/images/1.jpg)
+![Social Robot]({{ site.baseurl }}/assets/images/socialrobot2.jpg)
+![Social Robot]({{ site.baseurl }}/assets/images/socialrobot1.jpg)
 <br>
 <a href="{{ site.baseurl }}/assets/projects/ZIZO101/SocialRobot.pdf" target="_new">Documentation &nbsp;</a>
 <a href="https://www.youtube.com/watch?v=pDPp6o4OWQk" target="_new">&nbsp; Project Video &nbsp;</a>
