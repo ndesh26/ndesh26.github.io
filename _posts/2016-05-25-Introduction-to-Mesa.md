@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Introduction to Mesa (I)
+title:      Introduction to Mesa
 date:       2016-05-25 15:31:19
 excerpt_separator: <!--more-->
 categories: Graphics
@@ -33,6 +33,8 @@ X Clients don’t implement the X11 protocol directly, but use libraries like Xl
 A Windows Manager is a special that manages the positions of the top-level windows and draws frame around them. X Server also manages the input  from keyboard, 
 mouse and other input devices.
 
+This is very good [tutorial](http://magcius.github.io/xplain/article/) on X Windows System. It covers different aspects of X in a interactive way.
+
 ### OpenGL
 The above covers 2D graphics as that is what the X server used to be all about. However, the arrival of 3D graphics hardware changed the scenario significantly, 
 as we will see now. It led to creation of a standard API. Open Graphics Library (OpenGL) is a application programming interface (API) for rendering 2D and 3D vector graphics. The API is typically used to 
@@ -51,4 +53,32 @@ But developers would soon realize that this solution was not sufficient for inte
 large amounts of 3D primitives while maintaining high frame rates. To achieve good performance using 3D hardware, we need to allow direct access
 to hardware. 
 
-The solution to this problem was direct rendring infrastructure(DRI) which we will cover in the next post and also get to see how mesa fits in.
+### DRI
+As developers realized that indirect rendering can't handle intensive 3D application, efforts to allow direct access to hardware started, resulting in 
+direct rendering infrastucture (DRI). DRI is the new architecture that allows X clients to talk to the graphics hardware directly. Implementing 
+DRI required changes to various parts of the graphics stack including the X server, the kernel and various client libraries. 
+
+<p style="text-align:center">
+<img src="{{ site.baseurl }}/assets/images/dri.png">
+</p>
+
+To allow X client to directly interact with hardware we need Direct Rendering Manager (DRM). DRM provides X Clients a API through which they can use
+the 3D hardware. DRM is a part of the kernel and interacts with the GPU. DRM has GPU specific code to implement rendering.
+
+DRI/DRM provide the building blocks that enable userspace applications to access the graphics hardware directly in an efficient and safe manner, 
+but in order to use OpenGL we need another piece of software that, using the infrastructure provided by DRI/DRM, implements the OpenGL API while 
+respecting the X server requirements.
+
+### Enter Mesa
+Mesa acts a link between OpenGL programs and DRI. Mesa contains implementation of the OpenGL API, which allows user to write programs without
+taking care of the different DRI drivers. 
+
+When our 3D application runs in an X11 environment it will output its graphics to a surface (window) 
+allocated by the X server. Notice, however, that with DRI this will happen without intervention of the X server, so naturally there is some 
+synchronization to do between the two, since the X server still owns the window Mesa is rendering to and is the one in charge of displaying 
+its contents on the screen. This synchronization between the OpenGL application and the X server is part of DRI. Mesa’s implementation of 
+GLX (the extension of the OpenGL specification that addresses the X11 platform) uses DRI to talk to the X server and accomplish this.
+
+### What's next?
+
+Hopefully I have managed to explain the role of mesa in the linux graphics stack. In the next post we will look into Gallium3D which a part of mesa.
