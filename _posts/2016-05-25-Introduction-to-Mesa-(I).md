@@ -3,7 +3,7 @@ layout:     post
 title:      Introduction to Mesa (I)
 date:       2016-05-25 15:31:19
 excerpt_separator: <!--more-->
-categories: Graphics, Mesa 
+categories: Graphics
 comments:   true
 
 ---
