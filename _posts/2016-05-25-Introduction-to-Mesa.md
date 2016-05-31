@@ -81,4 +81,4 @@ GLX (the extension of the OpenGL specification that addresses the X11 platform) 
 
 ### What's next?
 
-Hopefully I have managed to explain the role of mesa in the linux graphics stack. In the next post we will look into Gallium3D which a part of mesa.
+Hopefully I have managed to explain the role of mesa in the linux graphics stack. In the next post we will see how to setup mesa development environment.
