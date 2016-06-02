@@ -11,7 +11,7 @@ title:            Developer's Log
 tagline:          ''
 description:      ''
 url:              ndesh26.github.io
-baseurl:          /
+baseurl: 
 
 author:
   name:           'Nayan Deshmukh'
