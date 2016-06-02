@@ -3,7 +3,7 @@ layout:     post
 title:      Recent Developments
 date:       2016-05-17 15:31:19
 excerpt_separator: <!--more-->
-categories: personal 
+categories: Personal 
 tags: [updates]
 comments:   true
 

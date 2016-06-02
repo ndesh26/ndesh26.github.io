@@ -3,7 +3,7 @@ layout:     post
 title:      My first contribution to FOSS
 date:       2016-03-21 15:31:19
 excerpt_separator: <!--more-->
-categories: programming 
+categories: Programming 
 tags: [gnome, linux, patch]
 comments:   true
 

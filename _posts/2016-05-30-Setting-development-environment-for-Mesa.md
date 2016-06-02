@@ -3,7 +3,7 @@ layout:     post
 title:      Setting development environment for Mesa
 date:       2016-05-30 15:31:19
 excerpt_separator: <!--more-->
-categories: programming 
+categories: Programming 
 tags: [mesa, linux, graphics]
 comments:   true
 

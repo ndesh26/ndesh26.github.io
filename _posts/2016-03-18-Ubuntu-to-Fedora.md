@@ -3,7 +3,7 @@ layout:     post
 title:      Ubuntu to Fedora
 date:       2016-03-18 15:31:19
 excerpt_separator: <!--more-->
-categories: personal 
+categories: Personal 
 tags: [updates, linux]
 comments:   true
 
