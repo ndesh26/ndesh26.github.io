@@ -4,6 +4,7 @@ title:      Recent Developments
 date:       2016-05-17 15:31:19
 excerpt_separator: <!--more-->
 categories: personal 
+tags: [updates]
 comments:   true
 
 ---

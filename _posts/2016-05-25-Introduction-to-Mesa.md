@@ -3,7 +3,8 @@ layout:     post
 title:      Introduction to Mesa
 date:       2016-05-25 15:31:19
 excerpt_separator: <!--more-->
-categories: Graphics
+categories: programming 
+tags: [mesa, linux, graphics]
 comments:   true
 
 ---
