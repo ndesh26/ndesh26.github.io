@@ -8,8 +8,8 @@ tags: [mesa, linux, graphics]
 comments:   true
 
 ---
-I have been working on video post processing on mesa for the past two weeks, So I thought I could also write about it so it might help someone who 
-wants to contribute to mesa. So I will be doing a series of post regarding mesa, linus grahics stack ,video processing and more.
+I have been working on video post processing on mesa for the past two weeks, So I thought I could also write about it and it might help someone who 
+wants to contribute to mesa. Hence, I will be doing a series of post regarding mesa, linus grahics stack ,video processing and more.
 <!--more-->
 This is the first post in a series of posts to come. It will serve as a introduction to mesa and the linux graphics stack. 
 
