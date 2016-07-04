@@ -258,7 +258,7 @@ argument is the time after 1 january 1970(in seconds) at which the surface shoul
 
 ## Result 
 
-If you were able to folow my instructions then the code should work fine and should display the data that you gave in a small window. Remember you 
+If you were able to follow my instructions then the code should work fine and should display the data that you gave in a small window. Remember you 
 need to give the data in the first 8 bits will be for Cr next for Cr and then Y. I made a file with the values for a sample image you can download it from 
 [here]({{ site.baseurl }}/assets/final.txt). After using this image the output will look like
 
