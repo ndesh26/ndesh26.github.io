@@ -97,7 +97,7 @@ points with the 4x4 matrix and store the result in 4 temp registers.
 Easy enough right. 
 
 Now let's look at the code to multiply temp registes with t, which is provided to us as a argument, we will see how 
-to calculate it in the bicubic code. The code is mostly trivial. 
+to calculate 't' it in the bicubic code. This code is mostly trivial. 
 
 ```c
    /*
@@ -123,7 +123,7 @@ to calculate it in the bicubic code. The code is mostly trivial.
 ```
 
 The one intriguing thing about the code is the number of temp registers I use to calculate the value this could be 
-easily avoided, that's what I thought but when I tried reducing there were errors and artifacts in the output. Until
+easily avoided, that's what I thought but when I tried reducing there were errors and artifacts in the output. Even
 now I don't know the exact reason for the artifacts but using many temp registers cleared the errors. 
 
 Now we need to write the code for the bicubic interpolation which calls the above function 5 times. The toughest 
@@ -151,7 +151,21 @@ part of the entire code is to calculate t while calling the cubic interpolator
             ureg_src(t_array[22]), ureg_imm2f(shader, video_width, video_height));
    ureg_ADD(shader, ureg_writemask(t_array[22], TGSI_WRITEMASK_XY),
             ureg_src(t_array[22]), half_pixel);
+```
 
+First we subtract the offset of 0.5 pixel from the coordinate because the pixel center is at 0.5. Now the t_array[21] 
+holds the coordinates divided by the dst width/height. We multiply it with src (width, height) and taking fraction 
+of this value we get the value of t which needed to be in the frame of src coordinates, that explains the reason 
+for multiplying it with src width/height. By applying the FLR on the value in t_array[22] gives us the point which 
+had a pixel value from the original src and not the interpolated one. Now we need 15 more points from the original 
+image for the interpolation. This could be achieved by adding offsets to the original points that we have got so we
+convert the point to dst coordinates. Finally t_array[22] conatins the refernce point from which the other 15 points
+will be obatined, we have also added the 0.5 offset to get the value in dst coordinates. 
+
+The next part involves adding offsets to the points and storing the texture of this points in the temp array. Now 
+we call our cubic interpolater function 5 times with the respective values. 
+
+```c
    /*
     * t_array[0..*] = vtex + offset[0..*]
     * t_array[0..*] = tex(t_array[0..*], sampler)
@@ -183,3 +197,6 @@ part of the entire code is to calculate t while calling the cubic interpolator
 
 ```
 
+This completes the post then. I have tried to explain the bicubic interpolation and its implementation in detail
+but whom am I kidding, I am not that good in explaining, if there is something wrong or something that you haven't
+understood please feel free to comment.
