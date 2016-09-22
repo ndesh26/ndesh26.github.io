@@ -12,7 +12,7 @@ TGSI stands for Tungsten Graphics Shader Infrastructure. The development of TGSI
 heck is TGSI? Let's find out together.
 <!--more-->
 
-When we write a code and compile it, the compiler converts into a intermediate representation which is suitable for optimisation before it is 
+When we write a code and compile it, the compiler converts it into a intermediate representation which is suitable for optimisation before it is 
 translated to machine code. TGSI is a intermediate representation to write shaders and it is compiled to create machine code according to the underlying 
 hardware. When you code in TGSI you get the feeling of coding in assembly language. When I was working on VDPAU I had to write shaders
 in TGSI and the only docs that I could get my hands on was [this](http://gallium.readthedocs.io/en/latest/tgsi.html). Though it was not complete and only had
