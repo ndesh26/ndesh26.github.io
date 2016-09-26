@@ -8,8 +8,7 @@ tags: [mesa, linux, graphics]
 comments:   true
 
 ---
-I am writing after a month long break, largest since I started blogging. I have been working on VDPAU state tracker for the past 2 months and
-have implemented luma keying and bicubic scaling and currently working on lanczos scaling. I will be writing about image scaling algorithms and
+This post has been pending for some time now. I have been working on VDPAU state tracker for the past 2 months and have implemented luma keying and bicubic scaling and currently working on lanczos scaling. I will be writing about image scaling algorithms and
 my implementation of bicubic shader in this post.
 <!--more-->
 
@@ -23,17 +22,18 @@ by extrapolating the given values.
 <img style="width:600px;" src="{{ site.baseurl }}/assets/images/matrix.jpg"> 
 </p>
 
-The fuction that you use to extrapolate the image determines the type of filter. The most basic scaling is the 
-Nearest-neighbor interpolation, as the name suggests the value of the pixel is same as the value of the nearest pixel (which was part of the original image).
-The other important and widely used method is bilinear interpolation which uses linear interpolation to calculate the pixel values. 
+The fuction that you use to extrapolate the image determines the type of filter. All the functions us the  values of the pixels present in the original 
+image to expolate the pixels. The most basic scaling is the Nearest-neighbor interpolation, as the name suggests the value of the pixel is same as the 
+value of the nearest pixel (which was part of the original image). The other important and widely used method is bilinear interpolation which uses 
+linear interpolation to calculate the pixel values.
 
-# Bicubic Interpolation 
+# Bicubic Interpolation
 
 As is obivous we are going to use a bicubic fuction for interpolation in the bicubic filter. The specific function that we are going to focus
 on is cubic Hermite spline (given in the figure below with a = -2).
 
 <p style="text-align:center">
-<img style="width:600px;" src="{{ site.baseurl }}/assets/images/hermite.png"> 
+<img style="width:600px;" src="{{ site.baseurl }}/assets/images/hermite.png">
 </p>
 
 In a bicubic interpolater we use 16 neighbouring pixels to calculate the pixel value. The value of the pixel not only depends on its neighbouring
@@ -153,17 +153,17 @@ part of the entire code is to calculate t while calling the cubic interpolator
             ureg_src(t_array[22]), half_pixel);
 ```
 
-First we subtract the offset of 0.5 pixel from the coordinate because the pixel center is at 0.5. Now the t_array[21] 
-holds the coordinates divided by the dst width/height. We multiply it with src (width, height) and taking fraction 
-of this value we get the value of t which needed to be in the frame of src coordinates, that explains the reason 
-for multiplying it with src width/height. By applying the FLR on the value in t_array[22] gives us the point which 
-had a pixel value from the original src and not the interpolated one. Now we need 15 more points from the original 
+First we subtract the offset of 0.5 pixel from the coordinate because the pixel center is at 0.5. Now the t_array[21]
+holds the coordinates divided by the dst width/height. We multiply it with src (width, height) and taking fraction
+of this value we get the value of t which needed to be in the frame of src coordinates, that explains the reason
+for multiplying it with src width/height. By applying the FLR on the value in t_array[22] gives us the point which
+had a pixel value from the original src and not the interpolated one. Now we need 15 more points from the original
 image for the interpolation. This could be achieved by adding offsets to the original points that we have got so we
 convert the point to dst coordinates. Finally t_array[22] conatins the refernce point from which the other 15 points
-will be obatined, we have also added the 0.5 offset to get the value in dst coordinates. 
+will be obatined, we have also added the 0.5 offset to get the value in dst coordinates.
 
-The next part involves adding offsets to the points and storing the texture of this points in the temp array. Now 
-we call our cubic interpolater function 5 times with the respective values. 
+The next part involves adding offsets to the points and storing the texture of this points in the temp array. Now
+we call our cubic interpolater function 5 times with the respective values.
 
 ```c
    /*
