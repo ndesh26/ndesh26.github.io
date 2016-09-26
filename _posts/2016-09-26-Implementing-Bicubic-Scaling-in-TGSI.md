@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Implementing Bicubic Scaling in TGSI 
-date:       2016-07-31 15:31:19
+date:       2016-09-26 15:31:19
 excerpt_separator: <!--more-->
 categories: Programming 
 tags: [mesa, linux, graphics]
