@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         kramdown 
-#highlighter:      pygments 
+markdown:         kramdown
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -11,12 +11,12 @@ title:            Developer's Log
 tagline:          ''
 description:      ''
 url:              ndesh26.github.io
-baseurl: 
+baseurl:
 
 author:
   name:           'Nayan Deshmukh'
   url:            ndesh26.github.io
-gems: [jekyll-paginate,jekyll-gist,redcarpet,kramdown]
+gems: [jekyll-paginate,jekyll-gist,redcarpet,kramdown, pygments]
 paginate:         5
 
 # Custom vars
