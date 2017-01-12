@@ -14,7 +14,7 @@ title: Archive
 {% assign year = this_year %}
 ### {{ year }}
 {% endunless %}
-{{ post.date | date: "%d %b"  }} &raquo; [ {{ post.title  }}  ]({{ site.baseurl }}{{ post.url  }})
+{{ post.date | date: "%b %d"  }} &raquo; [ {{ post.title  }}  ]({{ site.baseurl }}{{ post.url  }})
 {% endfor %}
 
 
