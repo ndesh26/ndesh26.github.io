@@ -64,7 +64,7 @@ Enough with the theory let's look at the code. First we will look at the code fo
 calculate p(t). We will divide calculation of p(t) in two parts first we will multiply the pixel values of the four 
 points with the 4x4 matrix and store the result in 4 temp registers.
 
-```c
+{% highlight c %}
    /*
     * |temp[0]|   |  0  2  0  0 |  |tex_a|
     * |temp[1]| = | -1  0  1  0 |* |tex_b|
@@ -92,14 +92,14 @@ points with the 4x4 matrix and store the result in 4 temp registers.
             ureg_src(temp[3]));
    ureg_MAD(shader, temp[3], tex_d, ureg_imm1f(shader, 1.0f),
             ureg_src(temp[3]));
-```
+{% endhighlight %}
 
 Easy enough right. 
 
 Now let's look at the code to multiply temp registes with t, which is provided to us as a argument, we will see how 
 to calculate 't' it in the bicubic code. This code is mostly trivial. 
 
-```c
+{% highlight c %}
    /*
     * t_2 = t*t
     * o_fragment = 0.5*|1  t  t^2  t^3|*|temp[0]|
@@ -120,7 +120,7 @@ to calculate 't' it in the bicubic code. This code is mostly trivial.
 
    ureg_ADD(shader, temp[10], ureg_src(temp[8]), ureg_src(temp[9]));
    ureg_MUL(shader, o_fragment, ureg_src(temp[10]), ureg_imm1f(shader, 0.5f));
-```
+{% endhighlight %}
 
 The one intriguing thing about the code is the number of temp registers I use to calculate the value this could be 
 easily avoided, that's what I thought but when I tried reducing there were errors and artifacts in the output. Even
@@ -129,7 +129,7 @@ now I don't know the exact reason for the artifacts but using many temp register
 Now we need to write the code for the bicubic interpolation which calls the above function 5 times. The toughest 
 part of the entire code is to calculate t while calling the cubic interpolator 
 
-```c
+{% highlight c %}
    half_pixel = ureg_DECL_constant(shader, 0);
    o_fragment = ureg_DECL_output(shader, TGSI_SEMANTIC_COLOR, 0);
 
@@ -151,7 +151,7 @@ part of the entire code is to calculate t while calling the cubic interpolator
             ureg_src(t_array[22]), ureg_imm2f(shader, video_width, video_height));
    ureg_ADD(shader, ureg_writemask(t_array[22], TGSI_WRITEMASK_XY),
             ureg_src(t_array[22]), half_pixel);
-```
+{% endhighlight %}
 
 First we subtract the offset of 0.5 pixel from the coordinate because the pixel center is at 0.5. Now the t_array[21]
 holds the coordinates divided by the dst width/height. We multiply it with src (width, height) and taking fraction
@@ -165,7 +165,7 @@ will be obatined, we have also added the 0.5 offset to get the value in dst coor
 The next part involves adding offsets to the points and storing the texture of this points in the temp array. Now
 we call our cubic interpolater function 5 times with the respective values.
 
-```c
+{% highlight c %}
    /*
     * t_array[0..*] = vtex + offset[0..*]
     * t_array[0..*] = tex(t_array[0..*], sampler)
@@ -194,8 +194,7 @@ we call our cubic interpolater function 5 times with the respective values.
             ureg_src(t_array[17]), ureg_src(t_array[18]),
             ureg_src(t_array[19]), ureg_scalar(ureg_src(t),
             TGSI_SWIZZLE_Y), o_fragment);
-
-```
+{% endhighlight %}
 
 This completes the post then. I have tried to explain the bicubic interpolation and its implementation in detail
 but whom am I kidding, I am not that good in explaining, if there is something wrong or something that you haven't

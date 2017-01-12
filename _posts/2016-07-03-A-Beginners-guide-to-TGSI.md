@@ -19,7 +19,7 @@ in TGSI and the only docs that I could get my hands on was [this](http://gallium
 information about opcodes I was able to find my way by looking at the code available in mesa. So enough with the chit chat let's look at
 some at some code.
 
-```c
+{% highlight c %}
 create_frag_shader(struct pipe context *pipe)
 {
 struct ureg_program *shader;
@@ -50,7 +50,8 @@ ureg_END(shader);
    
 return ureg_create_shader_and_destroy(shader, pipe);
 }
-```
+{% endhighlight %}
+
 This is the simplest fragment shader you can come up with, it is like the hello world program of shaders. Let's go over it and try to understand 
 what it is doing.
 
@@ -86,34 +87,34 @@ There are some functions other than the opcodes which are very useful like
 
    The '*' can be 1, 2, 3 and 4. This function is used to create a ureg_src with given values. e.g.
 
-```c
+{% highlight c %}
    ureg_src src = ureg_imm1f(shader, 1.0f);
    ureg_src src = ureg_imm2f(shader, 0.5f, 0.4f);
    ureg_src src = ureg_imm3f(shader, 0.6f, 0.3f, 0.4f);
-```
+{% endhighlight %}
 
 * `ureg_writemask`
 
    It allows us to perform operations on a particular components of a vector. e.g. 
 
-```c
+{% highlight c %}
    ureg_MOV(shader, ureg_writemask(dst, TGSI_WRITEMASK_X),
             ureg_imm1f(shader, 1.0f));
-```
+{% endhighlight %}
 * `ureg_scalar`
    This allows us to create a vector which contains a particular component of some other vector in all of its components. e.g.
 
-```c
+{% highlight c %}
    ureg_src src = ureg_scalar(src0, TGSI_SWIZZLE_X);
-```
+{% endhighlight %}
    This output of this instruction is 
 
-```
+{% highlight c %}
    src.x = src0.x
    src.y = src0.x
    src.z = src0.x
    src.w = src0.x
-```
+{% endhighlight %}
 I hope that now you are capable of writing a shader in TGSI. We will look how we can write more complex shaders using TGSI in the next post until 
 then
 
