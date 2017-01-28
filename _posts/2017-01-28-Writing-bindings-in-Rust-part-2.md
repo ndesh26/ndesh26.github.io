@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Writing bindings in Rust: Part 2"
-date:       2017-01-14 15:31:19
+date:       2017-01-28 15:31:19
 excerpt_separator: <!--more-->
 categories: Programming
 tags: [rust, libevdev]
@@ -9,12 +9,20 @@ comments:   true
 
 ---
 
-In our last post we looked at how to write a crate which allows raw access to C functions. In this post we will write a wrapper for this crate.
-We will be using a part of evdev-sys to write the wrapper functions.
+In the last [post]({{ site.baseurl }}/programming/2017/01/15/Writing-bindings-in-Rust-part-1/), we looked at how we can write a crate which allows raw access to C functions. In this post, we will write a safe abstraction for this crate.
+We will be using a part of evdev-sys as an example to see how to write the wrapper functions.
 
 <!--more-->
 
-This is how lib.rs for evdev-sys looks like:
+### Why do we need a wrapper in the first place?
+
+The wrapper is a way of writing a safe abstraction around an unsafe C function which would allow us to use rust specific constructs like
+ownership and borrowing to ensure memory safety. This abstraction also allows us to hide details of the bindings and the end user can use it
+like any other normal rust function. We can also introduce an API which is more object oriented than the one which provided by C library.
+
+### Let's begin
+
+This is the lib.rs that we are going to use for the example:
 
 {% highlight rust %}
 extern crate libc;
@@ -36,8 +44,9 @@ extern {
 }
 {% endhighlight %}
 
-We not only need to write safe but we also need to make the API object oriented. Since most of the function take a libevdev device pointer we can
-declare a device class and make all these functions its methods. We will have a Device struct which has the raw pointer to libevdev.
+We not only need to write safe abstractions but we also need to make the API object-oriented. Since most of the function take a libevdev device
+pointer we can declare a `Device` class and make all these functions its methods. We will have the `Device` struct which has the raw pointer to
+the libevdev device.
 
 {% highlight rust %}
 pub struct Device {
@@ -45,17 +54,17 @@ pub struct Device {
 }
 {% endhighlight %}
 
-Notice that we have not made the raw pointer public as we like to avoid unsafe access to c pointer by the user.
-In rust the methods for a struct are written in a impl block.
+Notice that we have not made the raw pointer public as we want to avoid unsafe access to C pointer by the user.
+In rust, the methods for a struct are written in an impl block.
 
 {% highlight rust %}
 impl Device {
 }
 {% endhighlight %}
 
-Let's start with the `libevdev_new` function. We need to call the function and then return a Device struct with the libevdev pointer. We will
-libevdev from `libevdev_new` according to rust naming conventions. Also notice that we are returning `Option<Device>` instead of a `Device`
-because its good code. Rust provides us with `Option<T>` to deal with function in which we might not always return the required value.
+Let's start with the `libevdev_new` function. We need to call the function and then return a Device struct with the libevdev pointer. We will remove libevdev
+libevdev from `libevdev_new` according to rust's naming conventions. Also notice that we are returning `Option<Device>` instead of `Device`
+because it is good rust code. Rust provides us with `Option<T>` to deal with function in which we might not always return the required value.
 
 {% highlight rust %}
 impl Device {
@@ -75,7 +84,7 @@ impl Device {
 }
 {% endhighlight %}
 
-The `libevdev_free` need to be executed once the use of libevdev device is over. Rust provides us with `drop` trait for this. We don't need
+`libevdev_free` needs to be executed once the use of the libevdev device is over. Rust provides us the `drop` trait for this. We don't need
 to free the device ourselves instead we specify the code that needs to be executed once a value goes out of scope and rust will execute it
 for us. We need to implement `libevdev_free` in the drop trait for `Device`.
 
@@ -116,7 +125,7 @@ pub fn grab(&mut self, grab: GrabMode) -> Result<(), Errno> {
 }
 {% endhighlight %}
 
-`as` comes in handy while converting between rust and c types. However we need to put more effort to conver a `str` to `char *` and vice
+`as` comes in handy while converting between rust and c types. However, we need to put more effort to convert an `str` to `char *` and vice
 versa. To get a `char *` from `str` we use `libc::CString` i.e.
 
 {% highlight rust %}
@@ -155,7 +164,7 @@ pub fn name(&self) -> Option<&str> {
 }
 {% endhighlight %}
 
-We have almost comleted our wrapper except for just one last function which shows the use of enums in rust.
+We have almost completed our wrapper except for one last function which shows the use of enums in rust.
 
 {% highlight rust %}
 pub enum LogPriority {
@@ -177,4 +186,9 @@ pub fn get_log_priority() -> LogPriority {
 }
 {% endhighlight %}
 
-We have completed our wrapper for evdev-sys. You can have a look at the [repo](https://github.com/ndesh26/evdev-rs) for the complete bindings.
+We have written a wrapper for evdev-sys. You can have a look at the [repo](https://github.com/ndesh26/evdev-rs) for the complete bindings.
+Here are some references which I found useful:
+
+* [Rust Once, Run Everywhere](https://blog.rust-lang.org/2015/04/24/Rust-Once-Run-Everywhere.html)
+* [Rust-Book](https://doc.rust-lang.org/book/ffi.html)
+- [FFI in Rust - writing bindings for libcpuid](http://siciarz.net/ffi-rust-writing-bindings-libcpuid/)
