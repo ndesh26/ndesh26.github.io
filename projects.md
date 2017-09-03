@@ -8,6 +8,41 @@ title: Projects
 <li>Implemented luma keying as part of color space conversion code and bicubic and lanczos interpolation algorithms as fragment shaders in TGSI</li>
 <li>Reworked the VPDAU mixer implementation so that it uses temporary buffer while applying filters</li>
 <li>Implemented DRI3 helper code for the Gallium interface for hardware with PRIME GPU offloading</li>
+<li>Used the DRI3 to send handle of a texture directly to X to be used as back buffer and avoids extra copying</li>
+</ul>
+
+<h3>Analysing the effect of kernel mode switch on multithreaded applications</h3>
+<i>Undergradutae Project, Prof. Mainak Chaudhuri</i>
+<ul>
+<li>Used a modified version of qemu and linux kernel to collect traces for mutlithreaded applications including traces for OS activity</li>
+</ul>
+
+<h3>evdev-rs: rust bindings for libevdev</h3>
+<i>Mentor: Peter Hutterer (Senior Software Engineer, RedHat)</i>
+<ul>
+<li>Implemented a safe wrapper to use libevdev in Rust, libevdev is a wrapper library for handling evdev kernel devices</li>
+<li>Used high level rust features to encorporate enum type safety, memory safety, and type inference</li>
+</ul>
+
+<h3>Analysing high performance cache replacement policies for CloudSuite</h3>
+<i>Course Project, Prof. Biswabandan Panda</i>
+<ul>
+<li>Analyzed the CloudSuite for their performance with respect to Last-level cache replacement policies like Hawkeye, ShiP++, etc</li>
+<li>Used CRC2 simulator ”ChampSim” which models a out-of-order superscalar processor with the entire cache heirarchy and a DRAM model</li>
+</ul>
+
+<h3>Java Compiler in Python (JCP)</h3>
+<i>Compiler Design, Prof. Amey Karkare</i>
+<ul>
+<li>Implemented a Java to x86 compiler from scratch in python using ply</li>
+<li>Incorporated advanced features like object heap allocation, classes, foreign funtion interface</li>
+</ul>
+
+<h3>Online Academic Registration System(OARS)</h3>
+<i> Mentor: Prof. P.P. Kurur and Prof. Satyadev Nandkumar</i>
+<ul>
+<li>Build a web application using Ruby on Rails to facilitate the process of academic registration</li>
+<li>Used docker for development and deployement of the system in production</li>
 </ul>
 
 <h3>Edge-disjoint spanning trees in undirected graphs</h3>
