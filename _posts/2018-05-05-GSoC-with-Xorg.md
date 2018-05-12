@@ -3,8 +3,8 @@ layout:     post
 title:      Google Summer of Code with Xorg
 date:       2018-05-05 15:31:19
 excerpt_separator: <!--more-->
-categories: Personal GSoC 
-tags: [updates]
+categories: GSoC 
+tags: [personal, updates]
 comments:   true
 
 ---
