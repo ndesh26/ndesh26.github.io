@@ -16,7 +16,7 @@ baseurl:
 author:
   name:           'Nayan Deshmukh'
   url:            ndesh26.github.io
-gems:             [jekyll-paginate,jekyll-gist,redcarpet,kramdown]
+plugins:             [jekyll-paginate,jekyll-gist,redcarpet,kramdown]
 paginate:         5
 
 # Custom vars
