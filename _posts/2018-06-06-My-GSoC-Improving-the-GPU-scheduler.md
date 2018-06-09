@@ -1,7 +1,7 @@
 ﻿---
 layout:     post
 title:      "My GSoC Project: Improving the GPU scheduler"
-date:       2018-06-06 15:31:19
+date:       2018-06-09 15:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
 tags: [GSoC, Programming]
@@ -46,6 +46,6 @@ This leads to static scheduling of jobs on these similar components which in the
 components. My project is to make this scheduling dynamic to have a better load balancing.
 
 This is a high-level overview of what I want to accomplish. There are various implementations possible for this idea and we are trying to
-explore some of them. I will be writing the GSoC status update soon which will talk about some of this implementation details.
+explore some of them. I will be writing the GSoC status update soon.
 
 Thanks for reading!!
