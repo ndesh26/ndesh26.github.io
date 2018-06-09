@@ -10,7 +10,7 @@ comments:   true
 ---
 
 It's been 3 weeks since I started working on my GSoC project. I am working on the DRM GPU scheduler to improve the load balancing and have
-more dynamic scheduling of jobs, for more details read this [post]({{ site.baseurl }}/gsoc/2018/06/06/My-GSoC-Improving-the-GPU-scheduler/).
+more dynamic scheduling of jobs, for more details read this [post]({{ site.baseurl }}/gsoc/2018/06/09/My-GSoC-Improving-the-GPU-scheduler/).
 This is my first update for the project. I wanted to be more frequent with the updates but I was unable to due to my trip. I had planned on
 doing bi-weekly updates for the project but this update got delayed by 1.5 weeks. 
 
