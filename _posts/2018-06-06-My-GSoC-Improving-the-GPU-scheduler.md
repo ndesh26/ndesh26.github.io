@@ -14,6 +14,8 @@ the Linux DRM subsystem. This post sheds more details on my project and is a som
 
 <!--more-->
 
+## Introduction
+
 Today's GPUs have various hardware components that perform specific functions. And there are multiple copies of some of these hardware
 components. The userspace application submits commands to the GPU driver which is then responsible for converting this commands into jobs
 that can be executed by these hardware components. The GPU driver is also responsible for scheduling them on these hardware components. 
@@ -28,6 +30,8 @@ driver for Vivante GPUs). My project involves working with the DRM GPU scheduler
 organization of the GPU scheduler. The scheduler provides a generic interface which can then be used by GPU drivers to submit jobs to hw
 queues. 
 
+## Organization of the Scheduler
+
 The basic entity for scheduling is a job. The jobs have some restrictions regarding the order that they are to be scheduled. The scheduler
 is responsible for ensuring the correctness of scheduling.
 
@@ -39,6 +43,8 @@ is responsible for ensuring the correctness of scheduling.
 
 Some jobs also depend on other jobs and hence cannot execute before their dependencies have been executed. The scheduler takes cares of this
 dependency handling.
+
+## My project
 
 As I mentioned earlier there could be multiple copies of a hardware component and the jobs can be scheduled on any of them. As of now, the
 driver is responsible for scheduling an entity on a particular hardware component and pushing the entity on the scheduler of that hw component.
