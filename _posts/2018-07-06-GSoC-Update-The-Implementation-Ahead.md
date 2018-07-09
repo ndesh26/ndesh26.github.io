@@ -11,7 +11,7 @@ comments:   true
 
 I am back with another update. In this post, I will discuss the implementation plan that we came up with to add dynamic scheduling to GPU scheduler
 and also some of the initial problems that I faced during the implementation. I will first start by explaining some of the functions before I
-start talking about my work. As usual, I will assume that you have read the [posts]({{ site.baseurl }}/categories/#GSoC) that I have written
+start talking about my work. As usual, I will assume that you have read the [posts]({{ site.baseurl }}/categories/#gsoc) that I have written
 before this, if not please give them a read before going over this.
 
 <!--more-->
