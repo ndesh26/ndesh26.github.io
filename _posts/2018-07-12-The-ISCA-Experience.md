@@ -3,8 +3,8 @@ layout:     post
 title:      "The ISCA Experience"
 date:       2018-07-12 16:31:19
 excerpt_separator: <!--more-->
-categories: GSoC 
-tags: [GSoC, Programming]
+categories: Personal 
+tags: [Personal, Architecture]
 comments:   true
 
 ---
