@@ -1,0 +1,25 @@
+---
+layout: page
+title: Archive
+---
+
+<!--{% for post in site.posts %}-->
+   <!--{{ post.date | date: "%Y"  }} &raquo; [ {{ post.title  }}  ]({{ site.baseurl }}{{ post.url  }})-->
+<!--{% endfor %}-->
+{% for post in site.posts %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if year != this_year %}
+        {% assign year = this_year %}
+	</ul>
+        <h2>{{ year }}</h2>
+	<ul style="list-style: none;">
+        {% endif %}
+        <li>
+        {{ post.date | date: "%b %d"  }}  &nbsp;&raquo; 
+	<h3 style="display:inline">
+        <a href={{ site.baseurl }}{{ post.url  }}> {{ post.title  }}  </a>
+        </h3>
+        </li>
+{% endfor %}
+
+

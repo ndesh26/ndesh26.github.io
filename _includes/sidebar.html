@@ -24,12 +24,13 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/CV.pdf">Resume</a>
+      <div class="sidebar-nav-item">
+        <a href="https://www.facebook.com/nayan.deshmukh.75" rel="me">&nbsp<i class="fab fa-facebook fa-2x"></i>&nbsp</a>
+        <a href="https://in.linkedin.com/in/nayand" rel="me">&nbsp<i class="fab fa-linkedin fa-2x"></i>&nbsp</a>
+        <a href="http://github.com/ndesh26" rel="me">&nbsp<i class="fab fa-github fa-2x"></i></a>
+      </div>
   </nav>
-
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.

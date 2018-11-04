@@ -1,28 +1,24 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
-
 # Permalinks
-permalink:        pretty
-relative_permalinks: false
+permalink:              pretty
+relative_permalinks:    false
 
 # Setup
-title:            Developer's Log
-tagline:          ''
-description:      ''
-url:              ndesh26.github.io
+title:                  Developer's Log
+tagline:                ''
+description:            ''
+url:                    ndesh26.github.io
 baseurl:
 
 author:
-  name:           'Nayan Deshmukh'
-  url:            ndesh26.github.io
-plugins:             [jekyll-paginate,jekyll-gist,redcarpet,kramdown]
-paginate:         5
+  name:                 'Nayan Deshmukh'
+  url:                  ndesh26.github.io
+plugins:                [jekyll-paginate,jekyll-gist,redcarpet,kramdown]
+paginate:               5
 
 # Custom vars
-version:          2.1.0
+version:                2.1.0
 
 github:
-  repo:           https://github.com/ndesh26
+  repo:                 https://github.com/ndesh26
 
 future: true
