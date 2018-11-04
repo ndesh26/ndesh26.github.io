@@ -79,10 +79,6 @@ a:focus {
   text-decoration: underline;
 }
 
-a.right {
-    text-align: right;
-    float: right;
-}
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
@@ -92,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 h2 {
   margin-top: 1rem;
@@ -111,7 +107,6 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  text-align: justify;
 }
 
 strong {
@@ -155,7 +150,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family:"Source Code Pro" ,monospace;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -169,13 +164,13 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .9rem;
+  font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #e3e3e3;
+  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -233,7 +228,7 @@ blockquote p:last-child {
 }
 
 img {
-  image-orientation: from-image;
+  display: block;
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
