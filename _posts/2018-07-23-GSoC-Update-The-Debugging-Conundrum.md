@@ -10,7 +10,7 @@ comments:   true
 ---
 
 <p style="text-align:center">
-<img src="{{ site.baseurl }}/assets/images/debug_done.jpg" alt="drawing" align="center" style="width:400px"/>
+<img class="center-image" src="{{ site.baseurl }}/assets/images/debug_done.jpg" alt="drawing" align="center" style="width:400px"/>
 </p>
 <!--more-->
 At last, I was able to get my code to work!! 😀 😀 😀
