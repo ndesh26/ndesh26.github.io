@@ -568,3 +568,9 @@ a.pagination-item:hover {
     margin: 0 auto;
     display: block;
 }
+
+.image-caption {
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
+}
