@@ -356,7 +356,37 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+/* Recent posts */
+.recent {
+  padding: 2rem;
+  margin-top: 5rem;;
+  max-width: 15rem;
+  position: absolute;
+  display: none;
+}
 
+@media (min-width: 72em) {
+  .recent {
+    display: inline;
+  }
+}
+.recent-posts {
+  padding-left: 0;
+  list-style: none;
+}
+.recent-posts h3 {
+  margin-top: 0;
+}
+.recent-posts li small {
+  color: #999;
+}
+.recent-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.recent-posts li a:hover small {
+  color: inherit;
+}
 /*
  * Pagination
  *
