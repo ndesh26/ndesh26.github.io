@@ -49,10 +49,10 @@ sign, and that became our first destination. We spent the evening around the are
 Griffith Observatory.
 
 <p>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day0_1.jpg" alt="drawing" style="width: 49.5%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day0_0.jpg" alt="drawing" style="width: 49.5%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day0_2.jpg" alt="drawing" style="width: 49.5%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day0_3.jpg" alt="drawing" style="width: 49.5%"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day0_1.jpg" alt="drawing" style="width: 49.5%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day0_0.jpg" alt="drawing" style="width: 49.5%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day0_2.jpg" alt="drawing" style="width: 49.5%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day0_3.jpg" alt="drawing" style="width: 49.5%; display: initial"/>
 </p>
 
 I was staying at the [USC village](https://uscvillage.com/) which is the residential campus for the students studying in USC. The USC village was recently built and had a very
@@ -65,9 +65,9 @@ sleepless nights. The workshops for day 1 ended at 4pm, and we decided to visit 
 wanted to work more on the presentation but I had already had been doing that during the workshops so I thought that a break might be useful.
 
 <p>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day1_1.jpg" alt="drawing" style="width: 32%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day1_2.jpg" alt="drawing" style="width: 32%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day1_3.jpg" alt="drawing" style="width: 32%"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day1_1.jpg" alt="drawing" style="width: 32%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day1_2.jpg" alt="drawing" style="width: 32%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day1_3.jpg" alt="drawing" style="width: 32%; display: initial"/>
 </p>
 
 I slept early on day 1 (around 10pm) and woke up at 3am to work on the presentation. By 6am I had gone through the presentation k number of
@@ -95,21 +95,21 @@ workshop who introduced me to a lot of people at various points of time during t
 roamed the streets of LA while Biswa was busy networking at the conference.
 
 <p>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day2_1.jpg" alt="drawing" style="width: 32%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day2_3.jpg" alt="drawing" style="width: 32%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day2_4.jpg" alt="drawing" style="width: 32%"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day2_1.jpg" alt="drawing" style="width: 32%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day2_3.jpg" alt="drawing" style="width: 32%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day2_4.jpg" alt="drawing" style="width: 32%; display: initial"/>
 </p>
 
 <p>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day2_2.jpg" alt="drawing" style="width: 32%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day2_5.jpg" alt="drawing" style="width: 32%"/>
-<img src="{{ site.baseurl }}/assets/images/ISCA/day2_6.jpg" alt="drawing" style="width: 32%"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day2_2.jpg" alt="drawing" style="width: 32%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day2_5.jpg" alt="drawing" style="width: 32%; display: initial"/>
+<img src="{{ site.baseurl }}/assets/images/ISCA/day2_6.jpg" alt="drawing" style="width: 32%; display: initial"/>
 </p>
 
 In the evening was the opening reception. Snehil and I were roaming around trying to talk to some of the big guns in the industry and
 academia. However, we were unable to talk to any of them and ended up talking to first year PhD and MS students. After this, we attended a
 dinner sponsored by Qualcomm for all the participants of CVP. Having an informal chat with the participants was nice. Biswa and I are
-vegetarian, so we struggling to get veg food for most of the time during the dinner. 
+vegetarian, so we were struggling to get veg food for most of the time during the dinner. 
 
 The main symposium started on day 3 with the first of the three keynotes. The paper presentations started soon after that. I attended some
 of the presentations and benched out from the others to do some networking during the conference. The Turing lecture for the year was
