@@ -1,6 +1,6 @@
 ﻿---
 layout:     post
-title:      "A Guide to Tax efiling for NRI"
+title:      "A Guide to tax efiling for NRIs"
 date:       2019-07-24 16:31:19
 excerpt_separator: <!--more-->
 categories: Personal 
