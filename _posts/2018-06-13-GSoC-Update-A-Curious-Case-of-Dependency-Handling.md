@@ -4,7 +4,7 @@ title:      "GSoC Update: A Curious Case of Dependency Handling"
 date:       2018-06-14 16:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
-tags: [GSoC, Programming]
+tags: [gsoc, programming]
 comments:   true
 
 ---

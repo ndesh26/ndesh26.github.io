@@ -4,7 +4,7 @@ title:      "GSoC Update: The Implementation Ahead"
 date:       2018-07-09 16:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
-tags: [GSoC, Programming]
+tags: [gsoc, programming]
 comments:   true
 
 ---

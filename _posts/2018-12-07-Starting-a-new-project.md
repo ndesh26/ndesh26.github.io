@@ -4,7 +4,7 @@ title:      "VideoCast: Starting a new Project"
 date:       2018-12-12 16:31:19
 excerpt_separator: <!--more-->
 categories: Programming 
-tags: [Programming]
+tags: [programming]
 comments:   true
 
 ---

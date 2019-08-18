@@ -4,7 +4,7 @@ title:      "GSoC Project Summary"
 date:       2018-08-07 15:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
-tags: [GSoC, Programming]
+tags: [gsoc, programming]
 comments:   true
 
 ---

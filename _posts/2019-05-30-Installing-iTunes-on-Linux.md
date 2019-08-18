@@ -4,7 +4,7 @@ title:      "Installing iTunes on Linux"
 date:       2019-05-31 16:31:19
 excerpt_separator: <!--more-->
 categories: Programming 
-tags: [Programming, linux]
+tags: [programming, linux]
 comments:   true
 
 ---

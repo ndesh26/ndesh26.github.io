@@ -4,7 +4,7 @@ title:      "My GSoC Journey/Dealing with GSoC failure"
 date:       2018-12-09 16:31:19
 excerpt_separator: <!--more-->
 categories: Personal 
-tags: [GSoC, Personal]
+tags: [gsoc, personal]
 comments:   true
 
 ---

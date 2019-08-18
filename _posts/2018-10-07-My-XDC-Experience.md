@@ -4,7 +4,7 @@ title:      "My XDC Experience"
 date:       2018-10-13 15:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
-tags: [GSoC, Travel]
+tags: [gsoc, travel]
 comments:   true
 
 ---

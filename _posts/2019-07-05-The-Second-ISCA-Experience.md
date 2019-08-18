@@ -4,7 +4,7 @@ title:      "The Second ISCA Experience"
 date:       2019-07-07 16:31:19
 excerpt_separator: <!--more-->
 categories: Personal 
-tags:       [Personal, Architecture]
+tags:       [personal, architecture]
 comments:   true
 
 ---

@@ -4,7 +4,7 @@ title:      "GSoC Update: The Debugging Conundrum"
 date:       2018-07-25 16:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
-tags: [GSoC, Programming]
+tags: [gsoc, programming]
 comments:   true
 
 ---

@@ -4,7 +4,7 @@ title:      "My GSoC Project: Improving the GPU scheduler"
 date:       2018-06-09 15:31:19
 excerpt_separator: <!--more-->
 categories: GSoC 
-tags: [GSoC, Programming]
+tags: [gsoc, programming]
 comments:   true
 
 ---

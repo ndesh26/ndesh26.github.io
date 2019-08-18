@@ -4,7 +4,7 @@ title:      "The ISCA Experience"
 date:       2018-07-12 16:31:19
 excerpt_separator: <!--more-->
 categories: Personal 
-tags: [Personal, Architecture]
+tags: [personal, architecture]
 comments:   true
 
 ---

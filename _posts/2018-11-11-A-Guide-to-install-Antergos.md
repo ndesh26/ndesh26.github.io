@@ -4,7 +4,7 @@ title:      "Installation guide for Antergos"
 date:       2018-11-11 16:31:19
 excerpt_separator: <!--more-->
 categories: Programming 
-tags: [GSoC, Programming, linux]
+tags: [programming, linux]
 comments:   true
 
 ---

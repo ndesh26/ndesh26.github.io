@@ -4,7 +4,7 @@ title:      "VideoCast: Update"
 date:       2019-01-13 16:31:19
 excerpt_separator: <!--more-->
 categories: Programming 
-tags: [Programming]
+tags: [programming]
 comments:   true
 
 ---

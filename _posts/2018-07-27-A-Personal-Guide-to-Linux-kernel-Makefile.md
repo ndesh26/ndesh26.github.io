@@ -4,7 +4,7 @@ title:      "A Personal Guide to Linux kernel's Makefile"
 date:       2018-07-27 16:31:19
 excerpt_separator: <!--more-->
 categories: Programming 
-tags: [GSoC, Programming, linux]
+tags: [gsoc, programming, linux]
 comments:   true
 
 ---

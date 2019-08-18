@@ -4,7 +4,7 @@ title:      "Revamping the Blog"
 date:       2018-11-23 16:31:19
 excerpt_separator: <!--more-->
 categories: Personal 
-tags: [Programming, Personal]
+tags: [programming, personal]
 comments:   true
 
 ---
