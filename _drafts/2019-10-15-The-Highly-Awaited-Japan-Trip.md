@@ -14,13 +14,13 @@ me on the trip. But I decided to go ahead with my plan anyways. Hence I ended up
 
 But I was already late for the trip as I wanted to plan the trip for the first week of october but it was already mid-september when I
 decided to go for the trip. So I had to do the bookings/planning and get the visa in 10 days. It was easier since I already had an idea
-of the things that I wanted to do in Japan. I wanted to see the japanese culture closely. But I wanted to experience the anime
-environment that I have been watching since the past few years. 
+of the things that I wanted to do in Japan. I wanted to experience the japanese culture closely. And I also wanted to see the anime
+environment that I have been watching since the past couple of years. 
 
 
 Day 1: Land in Narita airport at 21:40
 
-* I took the kisei main line to ueno station where I was staying Due to coming from Korea I was not fighting with sleeping cycle. After
+* I took the kisei main line to ueno station where I was staying Due to coming from Korea I was not fighting with jetlag. After
     checking in I went to a nearby konbini to grab something to eat and roam around the ueno area at night.
 * I had booked a bed in a mixed dormitory but due to some error in the reservation system the hostel staff had booked me in the female
     dorm. So they had to adjust me in other rooms due to this. Since they had no empty bed in the dorms for my last night I ended up
@@ -31,10 +31,10 @@ Day 2: Asakusa, Akihabara, Shibuya
 * I started my day at 9:30 with some bread from the konbini as breakfast. I decided to start my day from the Asakusa neighbourhood
     which had the Sensoji temple. I made the right decision to head over the nearby tourist center before going to the temple itself. I
     was able to join a free tour of the temple. The guide took us around the temple telling us stories about the temple and the gods
-    and about the nakamise shopping street. After this I went to the top of the tourist center building which offered a nice view of
+    and about the nakamise shopping street. After this I went to the top floor of the tourist center building which offered a nice view of
     the surrounding area including the tokyo skytree.
 * After the tour I joined some of my friends for lunch in Akihabara. We had some curry with rice. After seeing the curry rice in the
-    anime for some many times I was finally able to taste some. After that we went to maid cafe, one of the most popular activities to
+    anime for so many times I was finally able to taste some. After that we went to maid cafe, one of the most popular activities to
     do in akihabara. We went to @home cafe. But it turned out to be nothing special. I would recommend it as a one time activity. 
 * Afterwards we headed to Kanda Myoujin shrine on the recomendation of one of our maids. It was just a normal shrine with a nice path
     to get to the shrine. After seeing a few shrines they became routine for me.
@@ -42,7 +42,7 @@ Day 2: Asakusa, Akihabara, Shibuya
     finding an english manga. Sure there are shops with manga but they only have the popular ones at a steep price. The one I brought
     was 'Let me eat your pancreas' for $27.
 * Then we headed to the Meiji jingu shrine which was half hour walk from our location. After reaching there we realized that it was
-    already closed. Here we learnt an important lesson for the rest of our trip that all temples close early evening at around. We just
+    already closed. Here we learnt an important lesson for the rest of our trip that all temples close early evening at around 5. We just
     relaxed in the nearby park till the night dawned in and street lights started lighting up. 
 * The next stop was an Indian restaurant for dinner. Afterwards I went to Tokyo metropolitan building observatory which turned out to
     be the highlight of the day for me. It has great views with lesser crowds than other places and its free. I would recommend it over
@@ -55,9 +55,9 @@ Day 3: Odaiba, Ueno, Yanaka
     turned out to be similar as mine. 
 * The next activity on my itinerary was walking along the Rainbow bridge from odaiba to the tokyo side. And it turned out to be more
     fun than I had thought. With the strong winds blowing into my face and the scene of Tokyo tower among the Tokyo skyline was
-    fascinating to say the least. This will be highlight of the day.
+    fascinating to say the least. This was be highlight of the day.
 * I left odaiba to head over to ueno, but soon realized that I had forgotten my earphones at the Rainbow bridge entrance (on the Tokyo
-    side). Since I had heard so much about the lower crime rate of Japan I assumed that earphones would still be lying there and headed
+    side). Since I had heard so much about the low crime rate of Japan I assumed that earphones would still be lying there and headed
     back to the entrance to collect. But my earphones were nowhere to be found then I headed to the guard at the entrance to check if
     he knows anything. After struggling with him for sometime I concluded that either he was suggesting me to check nearby police box
     or that someone told him that they are submitting the earphones at the police box. My earphones were not all that costly and losing
@@ -119,9 +119,9 @@ Day 5: Shinkansen, Osaka, twilight cruise
     a trip to japan can't be complete without going on a ferris wheel (as seen from countless animes).
 * After this I went back to my hostel to checkin and then went for the last activity of the day which was Japan walking tour. I just
     made in time for the last tour, the tour guides were all packed and were about to leave. Interestingly I was the only one taking
-    the tour that day. The tour gave me some information about Osaka and its culture and how people of osaka enjoy good humor. He also
-    gave me tips for some restaurants where I can osaka foods in their vegetarian version. Because of him I got to oknomiyaki and
-    yakisoba. 
+    the tour that day. The tour gave me some information about Osaka and its culture and how people of osaka enjoy good humor. iHe told
+    about the Dotonbori shopping are and the place where I can find cheap goods. He also gave me tips for some restaurants where I can osaka foods in their vegetarian version. Because of him I got to oknomiyaki and
+    yakisoba. Since it had already been a long day for me, I decided to head back to hostel after the tour. 
 
 Day 6: Nara, Dotonbori 
 
@@ -135,4 +135,50 @@ Day 6: Nara, Dotonbori
     scale of the temple was magnificent and even bigger was the sculpture of the broze Buddha. Well worth the entrace fee. I had my
     lunch at a restaurant near the main hall of todaiji and it was just fine. I was happy enough to be getting a vegetarian meal this
     easily.
+* After the lunch I was just lazying around in the deer park without bothering the deers and just observing people feeding the deers.
+    And after a while I got bored with all the deers and the smell of deer dung started bothering me. I decided to head back to osaka
+    at around 3. After reaching Osaka I just decided to take a nap in my hostel. 
+* I again went to the Dotonbori area in the evening to utilize all the information that I got from tour guides last night. I went to
+    various shops and explored the Dotonbori area. Some shops were already closed as it was late already. I really liked the book off
+    store but before I could buy things from there, it was their closing time already.
+* I then decided to try out one of the restaurant recommended by my tour guide. And it turned out pretty good. I was able to have
+    vegetarian oknomiyaki and yakisoba. And both of them were delicious. The restaurant was one of the cheaper and hidden restaurant that
+    only the locals knew about. I decided to head in early as I had to plan my next day in kyoto and I knew that it was going to be a
+    hectic one. I had only allocated one day for kyoto and I knew that it demanded more time but I was on a time crunch.
+
+Day 7: Kyoto
+
+* I could have done a better job of scheduling my day in kyoto as it was raining the day I went to kyoto. But neverthless little
+    drizzles are not something that could scare me off. I started my day early but wasn't able to reach kyoto before 9:30am. The first
+    that I had to figure out after reaching there was my mode of transportation, among bus, JR, and the local subway. And also figure
+    out if it is worth to take any of the one day passes. I finally decided on a one day bus pass which cost me 6$. 
+* I started my day with the nearest location from the kyoto station, Tofukuji. And I have to say that I started my day with a
+    disappointment. The path that google map showed me was closed due to construction. After following the some tourists around I was
+    finally able to find the temple. There was nothing special about the temple and drizzle was not helping it. The temple also
+    consisted of gardens but they had a separate entrance fees for the garden. I decided to skip them.
+* To get over my disasppointing start I decided to head to one of the famous spots of kyoto, Fushimi Inari Taisha aka Endless orange
+    gates. I thought it is better to go there first before it gets crowded with people. And so I took the bus with drizzle still
+    continuing in the background. And the verdict after reaching there was meh. Maybe I was too overhyped about it but it was not as
+    great as I had imagined it. All the people with umbrella where not helping it. The orange gates form a path which leads to the top
+    of the Inari mountain. After reaching about half through the mountain I started sweating, I definitely wanted to avoid bathing in
+    sweat and hence decided to come down from that point. 
+* The Fushimi Inari shrine is sort of on the other end of kyoto and all other major destinations are located on the other side of
+    kyoto. It was already afternoon and at this point I was afraid of missing out on some locations due to them closing down (a lot of
+    them close at 5pm). And hence I was running on a shoe string time budget. I quickly looked at the buses and decided the order in
+    which I was to see the locations. For the first time on my trip, I was able to plan better with the bus schedule chart that I got
+    at kyoto station as compared to google maps.
+* The next stop was kiyomizu-dera which was under construction during my visit. But I have to say it turned out to be much better than
+    what I had expected. The temple is situated on a high ground and provided excellent views of the surrounding area. The temple also
+    had a lot of trees which gave it a calming atmosphere. But the most important factor that contributed may have been the absence of
+    the drizzle which had plagued my trip since morning. After spending about 45 minutes here I took off for my next destination,
+    Ginkakau-ji aka the silver pavilion.
+* At this point I barely had 2 hrs left before everything closes and I had to cover 2 important landmarks, Ginakaku-ji and Kinkaku-ji.
+    But I could barely spare 30 minutes to each. I was even afraid that I might miss Kinakaku-ji. But I made it in the end. I think it
+    is unfair of me to talk about these 2 important landmarks when I barely had the time to explore them properly. But even so I liked
+    the Ginakaku-ji better. Sure the Golden Pavilion had a temple made of Gold but the area surrounding the silver pavilion was more
+    serene and calming.kyoto 
+* All the major spots in kyoto are closed after 5pm, so I decided to just walk along the streets of kyoto. And I sort of got lost and
+    and this was the time when I had used all of my data. And so I was walking along the streets trying to find wifi so I can find my
+    way back to the kyoto station. However throught the day I had learned to use the bus chart schedule that I had got. I was to able
+    to find a bus stop somehow and the caught the last bus (I was lucky) to the kyoto station. 
 <!--more-->
