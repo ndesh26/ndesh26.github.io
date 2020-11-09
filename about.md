@@ -2,19 +2,16 @@
 layout: page
 title: About
 ---
-<blockquote><p> "Hard work beats talent when talent doesn't work hard"
-<p style="text-align:right"> —Kevin Durant</p></p></blockquote>
 
+I am Nayan. I work as a software engineer in the networks division of Samsung Electronics, South Korea. I graduated from IIT Kanpur
+with a bachelors in Computer Science and Engineering.
 
-I am Nayan, a B.Tech graduate from IIT Kanpur majoring in Computer Science and Engineering.
-I work at Samsung Electronics, South Korea in the Cloud Lab where I work on openstack and kubernetes.
+I am the maintainer of the [rust bindings](https://crates.io/crates/evdev-rs) for libevdev. I have previously contributed to the DRM GPU Scheduler which is part of the
+[Linux Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=nayan) as part of GSoC18. I have
+also contributed to [Mesa](https://cgit.freedesktop.org/mesa/mesa/log/?qt=author&q=Nayan+Deshmukh), which is a userspace implementation
+of openGL, vulkan and other graphics APIs. My interest areas are Computer Architecture, Operating Systems and Compilers. I am always
+curious to learn more about this areas and their interactions with each other.
 
-I am an introvert at heart.
-I love coding, working with large codebases, swimming, squash, binge-watching anime and food. I like to spend my free time insides
-and avoid going outdoors. I suck at group conversations and end up being the
-quietest guy in the group. I am okayish in one-to-one conversations. That's about it; anyways there is no point in 
-writing this much about myself if no one's going to read it. At least that's what google analytics shows :P
+When I am not on my computer, I would be exersing my body by playing squash or relaxing my mind by watching a TV series (mostly
+Kdramas these days). I was forced by corona to take up cooking but I started liking it since then. 
 
-I have contributed to [Linux kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=nayan), [Mesa](https://cgit.freedesktop.org/mesa/mesa/log/?qt=author&q=Nayan+Deshmukh) a bit. My interests lie in Computer
-architecture, Operating Systems, Compilers, and Networks.
-I interned at Samsung Electronics, South Korea during summers 2017. 
