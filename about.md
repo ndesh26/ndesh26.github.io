@@ -13,5 +13,4 @@ of openGL, vulkan and other graphics APIs. My interest areas are Computer Archit
 curious to learn more about this areas and their interactions with each other.
 
 When I am not on my computer, I would be exersing my body by playing squash or relaxing my mind by watching a TV series (mostly
-Kdramas these days). I was forced by corona to take up cooking but I started liking it since then. 
-
+Kdramas these days). I was forced by corona to take up cooking but I have started liking it since then.
