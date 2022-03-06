@@ -1,7 +1,7 @@
 ﻿---
 layout:     post
 title:      "The Highly Awaited Japan Trip"
-date:       2019-10-15 16:31:19
+date:       2022-03-06 16:31:19
 excerpt_separator: <!--more-->
 categories: Personal 
 tags:       [personal, travel]
