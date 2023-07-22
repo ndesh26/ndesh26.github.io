@@ -24,7 +24,4 @@ opportunity and started my application. I completed my application within a week
 in getting this project. 
 
 
-I haven't been blogging for a while now, due to the semester load and my new found love for anime (I am listening to a japanese song while writing
-this and I have no idea what it means :P). When I looked at the archive section I realised that I only have 3 blog posts for the year 2017.
-Hopefully it will be better this year (though the start of the year is not as promising as it should be), because this time I am doing GSoC
-which in a way forces me to write a blog post every once in a while.
+I haven't been blogging for a while now, due to the semester load and my new found love for anime (I am listening to a japanese song while writing this and I have no idea what it means :P). When I looked at the archive section I realised that I only have 3 blog posts for the year 2017. Hopefully it will be better this year (though the start of the year is not as promising as it should be), because this time I am doing GSoC which in a way forces me to write a blog post every once in a while.

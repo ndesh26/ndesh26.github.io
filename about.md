@@ -3,14 +3,8 @@ layout: page
 title: About
 ---
 
-I am Nayan. I work as a software engineer in the networks division of Samsung Electronics, South Korea. I graduated from IIT Kanpur
-with a bachelors in Computer Science and Engineering.
+Hi! My name is Nayan. I am a Software Developer with 5 years of experience. Currently I am working as a software engineer in the networks division of Samsung Electronics, South Korea. For the past 3 years I have been working on the [wireless physical layer]({% post_url 2020-11-20-Introduction-to-Wireless-Physical-Layer %}) for 5G networks. In my current job, I focus on writing higly-efficient C++ code using AVX512 intrinsics. Previously I worked on developing a kubernetes based platform using the [kuryr](https://opendev.org/openstack/kuryr-kubernetes/commits/branch/master/search?q=Nayan+Deshmukh) as the network plugin to allow a harmonious existence with VMs. I graduated from IIT Kanpur with a bachelors in Computer Science and Engineering.
 
-I am the maintainer of the [rust bindings](https://crates.io/crates/evdev-rs) for libevdev. I have previously contributed to the DRM GPU Scheduler which is part of the
-[Linux Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=nayan) as part of GSoC18. I have
-also contributed to [Mesa](https://cgit.freedesktop.org/mesa/mesa/log/?qt=author&q=Nayan+Deshmukh), which is a userspace implementation
-of openGL, vulkan and other graphics APIs. My interest areas are Computer Architecture, Operating Systems and Compilers. I am always
-curious to learn more about this areas and their interactions with each other.
+I am the maintainer of the [rust bindings](https://crates.io/crates/evdev-rs) for libevdev. I have previously contributed to the DRM GPU Scheduler which is part of the [Linux Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=nayan) as part of GSoC18. I have also contributed to [Mesa](https://cgit.freedesktop.org/mesa/mesa/log/?qt=author&q=Nayan+Deshmukh), which is a userspace implementation of openGL, vulkan and other graphics APIs. 
 
-When I am not on my computer, I would be exersing my body by playing squash or relaxing my mind by watching a TV series (mostly
-Kdramas these days). I was forced by corona to take up cooking but I have started liking it since then.
+My interest areas lie at the junction of Computer Architecture, Operating Systems and Compilers. I'm endlessly curious about the intricate interactions between these areas, and I'm eager to keep pushing the boundaries of my expertise in these areas. I do take up side projects during my spare time to learn new things but most of them remain undocumented and unfinished, some of which can be found [here]({{site.baseurl}}/tags#side-project).  When I am not on my computer, I would be exercising my body by playing squash or relaxing my mind by watching a TV series. I was forced by corona to take up cooking but ~~I have started liking it since then~~, I grew out of the cooking phase.

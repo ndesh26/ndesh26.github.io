@@ -18,11 +18,9 @@ The Old Site
 
 ## The Theme Change 
 
-From the starting of my blog, I have been using the [Hyde](http://hyde.getpoole.com/) theme. But recently I have felt that the sidebar was not doing any good to the
-reading experience of the blog and hence decided to change to a theme without sidebar. 
+From the starting of my blog, I have been using the [Hyde](http://hyde.getpoole.com/) theme. But recently I have felt that the sidebar was not doing any good to the reading experience of the blog and hence decided to change to a theme without sidebar. 
 
-I went through a lot of themes listed in [Jekyll Themes](https://jekyllthemes.io/) and finally ended up selecting [Lanyon](http://lanyon.getpoole.com/) which can appropriately be called the
-cousin of my current theme :P. I guess we can say that I have an affinity to [poole](http://getpoole.com/) which is the parent framework for both the themes.
+I went through a lot of themes listed in [Jekyll Themes](https://jekyllthemes.io/) and finally ended up selecting [Lanyon](http://lanyon.getpoole.com/) which can appropriately be called the cousin of my current theme :P. I guess we can say that I have an affinity to [poole](http://getpoole.com/) which is the parent framework for both the themes.
 
 <img class="center-image" src="{{ site.baseurl }}/assets/images/hyde.png" style="width:500px"/>
 Hyde demo site
@@ -45,9 +43,9 @@ university domain.
 
 After a lot of futile attempts to fix the problem, I decided to start anew with a new disqus site. I exported all my
 comments from my old disqus site and deleted it. Then I setup the new disqus and began importing the comments only to realize that disqus
-doesn't allow import exported disqus comments. And after a few more futile attempts I gave up the idea of importing my old comments.
+doesn't allow importing exported disqus comments. And after a few more futile attempts I gave up the idea of importing my old comments.
 
-I apologize to all the user who took the time to comment on my blog posts. I have not completely given up on the problem as there is still
+I apologize to all the users who took the time to comment on my blog posts. I have not completely given up on the problem as there is still
 some chance of fixing it. And I will try further in the future. Please let me know if you have any suggestions for my condition.
 
 

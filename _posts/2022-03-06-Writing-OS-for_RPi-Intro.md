@@ -4,7 +4,7 @@ title:      Writing an OS for RPi B+ - Intro
 date:       2022-03-06 18:31:19
 excerpt_separator: <!--more-->
 categories: Programming
-tags: [programming, os, rpi]
+tags: [programming, os, rpi, side-project]
 comments:   true
 
 ---
