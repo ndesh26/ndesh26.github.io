@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Surface Go 2 - Alternate Operating Systems
-date:       2023-07-22 18:31:19
+date:       2024-08-06 10:31:19
 excerpt_separator: <!--more-->
 categories: Programming
 tags: [programming,linux]
